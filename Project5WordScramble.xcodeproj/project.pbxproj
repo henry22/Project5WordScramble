@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BACC9E7C1B046497006DD2F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACC9E7B1B046497006DD2F9 /* AppDelegate.swift */; };
+		BACC9E7E1B046497006DD2F9 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACC9E7D1B046497006DD2F9 /* MasterViewController.swift */; };
+		BACC9E801B046497006DD2F9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACC9E7F1B046497006DD2F9 /* DetailViewController.swift */; };
+		BACC9E831B046497006DD2F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACC9E811B046497006DD2F9 /* Main.storyboard */; };
+		BACC9E851B046497006DD2F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACC9E841B046497006DD2F9 /* Images.xcassets */; };
+		BACC9E881B046497006DD2F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACC9E861B046497006DD2F9 /* LaunchScreen.xib */; };
+		BACC9E941B046497006DD2F9 /* Project5WordScrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACC9E931B046497006DD2F9 /* Project5WordScrambleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BACC9E8E1B046497006DD2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BACC9E6E1B046497006DD2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BACC9E751B046497006DD2F9;
+			remoteInfo = Project5WordScramble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BACC9E761B046497006DD2F9 /* Project5WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project5WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACC9E7A1B046497006DD2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BACC9E7B1B046497006DD2F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BACC9E7D1B046497006DD2F9 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		BACC9E7F1B046497006DD2F9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BACC9E821B046497006DD2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BACC9E841B046497006DD2F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BACC9E871B046497006DD2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BACC9E8D1B046497006DD2F9 /* Project5WordScrambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project5WordScrambleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACC9E921B046497006DD2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BACC9E931B046497006DD2F9 /* Project5WordScrambleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project5WordScrambleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BACC9E731B046497006DD2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACC9E8A1B046497006DD2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BACC9E6D1B046497006DD2F9 = {
+			isa = PBXGroup;
+			children = (
+				BACC9E781B046497006DD2F9 /* Project5WordScramble */,
+				BACC9E901B046497006DD2F9 /* Project5WordScrambleTests */,
+				BACC9E771B046497006DD2F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BACC9E771B046497006DD2F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BACC9E761B046497006DD2F9 /* Project5WordScramble.app */,
+				BACC9E8D1B046497006DD2F9 /* Project5WordScrambleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BACC9E781B046497006DD2F9 /* Project5WordScramble */ = {
+			isa = PBXGroup;
+			children = (
+				BACC9E7B1B046497006DD2F9 /* AppDelegate.swift */,
+				BACC9E7D1B046497006DD2F9 /* MasterViewController.swift */,
+				BACC9E7F1B046497006DD2F9 /* DetailViewController.swift */,
+				BACC9E811B046497006DD2F9 /* Main.storyboard */,
+				BACC9E841B046497006DD2F9 /* Images.xcassets */,
+				BACC9E861B046497006DD2F9 /* LaunchScreen.xib */,
+				BACC9E791B046497006DD2F9 /* Supporting Files */,
+			);
+			path = Project5WordScramble;
+			sourceTree = "<group>";
+		};
+		BACC9E791B046497006DD2F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BACC9E7A1B046497006DD2F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BACC9E901B046497006DD2F9 /* Project5WordScrambleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BACC9E931B046497006DD2F9 /* Project5WordScrambleTests.swift */,
+				BACC9E911B046497006DD2F9 /* Supporting Files */,
+			);
+			path = Project5WordScrambleTests;
+			sourceTree = "<group>";
+		};
+		BACC9E911B046497006DD2F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BACC9E921B046497006DD2F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BACC9E751B046497006DD2F9 /* Project5WordScramble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BACC9E971B046497006DD2F9 /* Build configuration list for PBXNativeTarget "Project5WordScramble" */;
+			buildPhases = (
+				BACC9E721B046497006DD2F9 /* Sources */,
+				BACC9E731B046497006DD2F9 /* Frameworks */,
+				BACC9E741B046497006DD2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project5WordScramble;
+			productName = Project5WordScramble;
+			productReference = BACC9E761B046497006DD2F9 /* Project5WordScramble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BACC9E8C1B046497006DD2F9 /* Project5WordScrambleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BACC9E9A1B046497006DD2F9 /* Build configuration list for PBXNativeTarget "Project5WordScrambleTests" */;
+			buildPhases = (
+				BACC9E891B046497006DD2F9 /* Sources */,
+				BACC9E8A1B046497006DD2F9 /* Frameworks */,
+				BACC9E8B1B046497006DD2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BACC9E8F1B046497006DD2F9 /* PBXTargetDependency */,
+			);
+			name = Project5WordScrambleTests;
+			productName = Project5WordScrambleTests;
+			productReference = BACC9E8D1B046497006DD2F9 /* Project5WordScrambleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BACC9E6E1B046497006DD2F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Henry;
+				TargetAttributes = {
+					BACC9E751B046497006DD2F9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					BACC9E8C1B046497006DD2F9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = BACC9E751B046497006DD2F9;
+					};
+				};
+			};
+			buildConfigurationList = BACC9E711B046497006DD2F9 /* Build configuration list for PBXProject "Project5WordScramble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BACC9E6D1B046497006DD2F9;
+			productRefGroup = BACC9E771B046497006DD2F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BACC9E751B046497006DD2F9 /* Project5WordScramble */,
+				BACC9E8C1B046497006DD2F9 /* Project5WordScrambleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BACC9E741B046497006DD2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACC9E831B046497006DD2F9 /* Main.storyboard in Resources */,
+				BACC9E881B046497006DD2F9 /* LaunchScreen.xib in Resources */,
+				BACC9E851B046497006DD2F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACC9E8B1B046497006DD2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BACC9E721B046497006DD2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACC9E801B046497006DD2F9 /* DetailViewController.swift in Sources */,
+				BACC9E7E1B046497006DD2F9 /* MasterViewController.swift in Sources */,
+				BACC9E7C1B046497006DD2F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACC9E891B046497006DD2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACC9E941B046497006DD2F9 /* Project5WordScrambleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BACC9E8F1B046497006DD2F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BACC9E751B046497006DD2F9 /* Project5WordScramble */;
+			targetProxy = BACC9E8E1B046497006DD2F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BACC9E811B046497006DD2F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BACC9E821B046497006DD2F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BACC9E861B046497006DD2F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BACC9E871B046497006DD2F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BACC9E951B046497006DD2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BACC9E961B046497006DD2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BACC9E981B046497006DD2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Project5WordScramble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BACC9E991B046497006DD2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Project5WordScramble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BACC9E9B1B046497006DD2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Project5WordScrambleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project5WordScramble.app/Project5WordScramble";
+			};
+			name = Debug;
+		};
+		BACC9E9C1B046497006DD2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Project5WordScrambleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project5WordScramble.app/Project5WordScramble";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BACC9E711B046497006DD2F9 /* Build configuration list for PBXProject "Project5WordScramble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BACC9E951B046497006DD2F9 /* Debug */,
+				BACC9E961B046497006DD2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BACC9E971B046497006DD2F9 /* Build configuration list for PBXNativeTarget "Project5WordScramble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BACC9E981B046497006DD2F9 /* Debug */,
+				BACC9E991B046497006DD2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BACC9E9A1B046497006DD2F9 /* Build configuration list for PBXNativeTarget "Project5WordScrambleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BACC9E9B1B046497006DD2F9 /* Debug */,
+				BACC9E9C1B046497006DD2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BACC9E6E1B046497006DD2F9 /* Project object */;
+}
