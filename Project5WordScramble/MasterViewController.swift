@@ -20,7 +20,18 @@ class MasterViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //Finding a path to a file, even though we know the file is called "start.txt", we don't know where it might be on the filesystem
+        if let startWordsPath = NSBundle.mainBundle().pathForResource("start", ofType: "txt") {
+            //Loading a file into a string, when we create an NSString instance, we can ask it to create itself from the contents of a file at a particular path.We can also provide it with parameters to tell the text encoding that was used and whether an error occurred
+            if let startWords = NSString(contentsOfFile: startWordsPath, usedEncoding: nil, error: nil) {
+                //We need to split our single string into an array of strings based on wherever we find a line break (\n)
+                allWords = startWords.componentsSeparatedByString("\n") as! [String]
+            }
+        }
+        else {
+            allWords = ["silkworm"]
+        }
     }
 
     override func didReceiveMemoryWarning() {
