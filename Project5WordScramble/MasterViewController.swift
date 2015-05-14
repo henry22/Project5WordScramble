@@ -32,9 +32,20 @@ class MasterViewController: UITableViewController {
         else {
             allWords = ["silkworm"]
         }
+        
+        startGame()
     }
     
-    
+    func startGame() {
+        //Array has been shuffled
+        allWords.shuffle()
+        //Sets our view controller's title to be the first word in the array
+        title = allWords[0]
+        //Removes all values from the objects array.The array was created by the Xcode template, and we'll be using it to store the player's answers
+        objects.removeAll(keepCapacity: true)
+        //Cause the table view to check how many rows it has and reload them all
+        tableView.reloadData()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
