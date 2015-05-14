@@ -13,6 +13,7 @@
 		BACC9E851B046497006DD2F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACC9E841B046497006DD2F9 /* Images.xcassets */; };
 		BACC9E881B046497006DD2F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACC9E861B046497006DD2F9 /* LaunchScreen.xib */; };
 		BACC9E941B046497006DD2F9 /* Project5WordScrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACC9E931B046497006DD2F9 /* Project5WordScrambleTests.swift */; };
+		BACC9E9E1B0474FD006DD2F9 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = BACC9E9D1B0474FD006DD2F9 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BACC9E8D1B046497006DD2F9 /* Project5WordScrambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project5WordScrambleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACC9E921B046497006DD2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BACC9E931B046497006DD2F9 /* Project5WordScrambleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project5WordScrambleTests.swift; sourceTree = "<group>"; };
+		BACC9E9D1B0474FD006DD2F9 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				BACC9E7D1B046497006DD2F9 /* MasterViewController.swift */,
 				BACC9E811B046497006DD2F9 /* Main.storyboard */,
+				BACC9E9D1B0474FD006DD2F9 /* start.txt */,
 				BACC9E791B046497006DD2F9 /* Supporting Files */,
 			);
 			path = Project5WordScramble;
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BACC9E831B046497006DD2F9 /* Main.storyboard in Resources */,
+				BACC9E9E1B0474FD006DD2F9 /* start.txt in Resources */,
 				BACC9E881B046497006DD2F9 /* LaunchScreen.xib in Resources */,
 				BACC9E851B046497006DD2F9 /* Images.xcassets in Resources */,
 			);
