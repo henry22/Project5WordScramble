@@ -85,6 +85,23 @@ class MasterViewController: UITableViewController {
     }
     
     func wordIsPossible(word: String) -> Bool {
+        var tempWord = title!.lowercaseString
+        
+        for letter in word {
+            //rangeOfString() returns an optional position of where the item was found, and rangeOfString() expects a string, not a character, so we need to create a string from the character
+            if let wordPosition = tempWord.rangeOfString(String(letter)) {
+                if wordPosition.isEmpty {
+                    return false
+                }
+                else {
+                    //To remove the used letter from the tempWord variable
+                    tempWord.removeAtIndex(wordPosition.startIndex)
+                }
+            }
+            else {
+                return false
+            }
+        }
         return true
     }
     
