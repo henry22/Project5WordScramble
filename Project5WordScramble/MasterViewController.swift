@@ -64,6 +64,25 @@ class MasterViewController: UITableViewController {
         
         presentViewController(alertController, animated: true, completion: nil)
     }
+    
+    func submitAnswer(answer: String) {
+        //check the player's answer we immediately lowercase it using its lowercaseString property
+        let lowerAnswer = answer.lowercaseString
+        
+        if wordIsPossible(lowerAnswer) {
+            if wordIsOriginal(lowerAnswer) {
+                if wordIsReal(lowerAnswer) {
+                    //Add it to the start of the array, and the newest words will appear at the top of the table view.
+                    objects.insert(answer, atIndex: 0)
+                    
+                    //As it contains a section and a row for every item in table
+                    let indexPath = NSIndexPath(forRow: 0, inSection: 0)
+                    //Let us tell the table view that a new row has been placed at a specific place in the array so that it can animate the new cell appearing
+                    tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+                }
+            }
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
