@@ -33,6 +33,8 @@ class MasterViewController: UITableViewController {
             allWords = ["silkworm"]
         }
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "promptForAnswer")
+        
         startGame()
     }
     
