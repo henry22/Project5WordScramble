@@ -48,6 +48,22 @@ class MasterViewController: UITableViewController {
         //Cause the table view to check how many rows it has and reload them all
         tableView.reloadData()
     }
+    
+    func promtForAnswer() {
+        let alertController = UIAlertController(title: "Enter answer", message: nil, preferredStyle: .Alert)
+        //Just adds an editable text field to the UIAlertController
+        alertController.addTextFieldWithConfigurationHandler(nil)
+        //It's a trailing closure syntax
+        let submitAction = UIAlertAction(title: "Submit", style: .Default) { [unowned self, alertController] (action: UIAlertAction!) in
+            //Add a single text field to the UIAlertController
+            let answer = alertController.textFields![0] as! UITextField
+            self.submitAnswer(answer.text)
+        }
+        //Is used to add a UIAlertAction to a UIAlertController
+        alertController.addAction(submitAction)
+        
+        presentViewController(alertController, animated: true, completion: nil)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
