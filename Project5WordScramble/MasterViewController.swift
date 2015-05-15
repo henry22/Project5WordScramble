@@ -83,7 +83,19 @@ class MasterViewController: UITableViewController {
             }
         }
     }
-
+    
+    func wordIsPossible(word: String) -> Bool {
+        return true
+    }
+    
+    func wordIsOriginal(word: String) -> Bool {
+        return true
+    }
+    
+    func wordIsReal(word: String) -> Bool {
+        return true
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
