@@ -49,7 +49,7 @@ class MasterViewController: UITableViewController {
         tableView.reloadData()
     }
     
-    func promtForAnswer() {
+    func promptForAnswer() {
         let alertController = UIAlertController(title: "Enter answer", message: nil, preferredStyle: .Alert)
         //Just adds an editable text field to the UIAlertController
         alertController.addTextFieldWithConfigurationHandler(nil)
@@ -110,8 +110,19 @@ class MasterViewController: UITableViewController {
         return !contains(objects, word)
     }
     
-    func wordIsReal(word: String) -> Bool {
-        return true
+    func wordIsReal(word: NSString) -> Bool {
+        //An iOS class that is designed to spot spelling errors, which makes it perfect for knowing if a given word is real or not.
+        let checker = UITextChecker()
+        //This is used to make a string range, which is a value that holds a start position and a length.
+        let range = NSMakeRange(0, word.length)
+        //The first parameter is our string, the second is our range to scan, and the last is the language we should be checking with, where en selects English
+        let misspelledRange = checker.rangeOfMisspelledWordInString(word as String, range: range, startingAt: 0, wrap: false, language: "en")
+        if misspelledRange.location == NSNotFound {
+            return true
+        }
+        else {
+            return false
+        }
     }
     
     override func didReceiveMemoryWarning() {
