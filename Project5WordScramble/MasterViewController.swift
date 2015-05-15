@@ -80,7 +80,23 @@ class MasterViewController: UITableViewController {
                     //Let us tell the table view that a new row has been placed at a specific place in the array so that it can animate the new cell appearing
                     tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
                 }
+                else {
+                    let alertController = UIAlertController(title: "Word not recognized", message: "You can't just make them up", preferredStyle: .Alert)
+                    alertController.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
+                    presentViewController(alertController, animated: true, completion: nil)
+                }
             }
+            else {
+                let alertController = UIAlertController(title: "Word used already", message: "Be more original", preferredStyle: .Alert)
+                alertController.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
+                presentViewController(alertController, animated: true, completion: nil)
+            }
+        }
+        else {
+            //Show the view controller's title as a lowercase string
+            let alertController = UIAlertController(title: "Word not possible", message: "You can't spell that word from \(title!.lowercaseString)", preferredStyle: .Alert)
+            alertController.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
+            presentViewController(alertController, animated: true, completion: nil)
         }
     }
     
